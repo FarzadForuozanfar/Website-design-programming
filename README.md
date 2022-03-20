@@ -17,6 +17,6 @@ Create this page with ```HTML && CSS``` :
 ![Screenshot (418)](https://user-images.githubusercontent.com/91725214/159161934-5d8d3fe1-e94d-4f7c-9d40-ad84f700de56.png)
 
 # Certificates:
-<a href="https://www.sololearn.com/Certificate/1014-23586582/jpg">www.sololearn.com </a>
+<a href="https://www.sololearn.com">www.sololearn.com </a>
 
 ![cert-1014-23586582](https://user-images.githubusercontent.com/91725214/159041140-e9fd612b-116e-4200-9589-29fde43b6594.jpg)
