@@ -1,0 +1,198 @@
+<html lang="en">
+    <head>    
+        <meta charset="utf-8">
+        <title>Login</title>
+        <style>
+            #BG
+            {
+                position: absolute;
+                left: 10%;
+                top:10%;
+                width: 720;
+                height: 620;
+                background-image: linear-gradient(rgb(214, 11, 146), rgb(25, 0, 255));
+            }
+            #login
+            {
+                position: absolute;
+                left: 26%;
+                top:  10%;
+                width: 350;
+                height: 490;
+                background-color: rgb(231, 239, 247);
+            }
+            h2
+            {
+                position: absolute;
+                left: 38%;
+                top: 4%;
+                font-family:'Times New Roman', Times, serif;
+            }
+            #email
+            {
+                position: absolute;
+                left:  11%;
+                top: 21%;
+                background-color: rgb(209, 208, 208);
+                width: 270;
+                height: 45;
+                border-radius: 10px;
+            }
+            #email_icon
+            {
+                position: absolute;
+                left: 15;
+                top: 10;
+                width: 25;
+                height: 25;
+            }
+            #email_in
+            {
+                position: absolute;
+                left: 20%;
+                top: 10;
+                border-style: solid;
+                width:200;
+                height: 25;
+                border-color: rgb(209, 208, 208) ;
+                background-color: rgb(209, 208, 208);
+            }
+
+            #password
+            {
+                position: absolute;
+                left:  11%;
+                top: 35%;
+                background-color: rgb(209, 208, 208);
+                width: 270;
+                height: 45;
+                border-radius: 10px;
+            }
+            #password_icon
+            {
+                position: absolute;
+                left: 15;
+                top: 10;
+                width: 20;
+                height: 20;
+            }
+            #password_in
+            {
+                position: absolute;
+                left: 20%;
+                top: 10;
+                border-style: solid;
+                width: 200;
+                height: 25;
+                border-color: rgb(209, 208, 208) ;
+                background-color: rgb(209, 208, 208);
+            }
+            #remember
+            {
+                width: 15px;
+                position: relative;
+                top: 230;
+                margin-left: 12%;
+            }
+            label
+            {
+                font-size: small;
+                color: rgb(82, 81, 81);
+                position: relative;
+                top: 228;
+            }
+            #Enter
+            {
+                width: 270;
+                height: 45;
+                border-color: aliceblue ;
+                position: absolute;
+                color: aliceblue;
+                top: 54%;
+                left: 11%;
+                background-color: rgb(235, 0, 145);
+            }
+            h5
+            {
+                position: absolute;
+                top: 62%;
+                left: 40%;
+                color: rgb(124, 116, 116);
+            }
+            #googlebtn
+            {
+                padding-left: 20;
+                
+                width: 90;
+                height: 25;
+                border-color: rgb(231, 239, 247);
+                border-width: 1px;
+                position: absolute;
+                color: rgb(0, 0, 0);
+                top: 71%;
+                left: 61%;
+                background-color: rgb(231, 239, 247);
+
+            }
+            #google_icon
+            {
+                width: 15;
+                position: absolute;
+                left: 0;            
+            }
+            #facebook_icon
+            {
+                width: 15;
+                position: absolute;
+                left: 0;            
+            }
+            #facebookbtn
+            {
+                padding-left: 20;
+                
+                width: 90;
+                height: 25;
+                border-color: rgb(231, 239, 247);
+                border-width: 1px;
+                position: absolute;
+                color: rgb(0, 0, 0);
+                top: 71%;
+                left: 15%;
+                background-color: rgb(231, 239, 247);
+
+            }
+            h4
+            {
+                position: absolute;
+                top: 85%;
+                left: 28%;
+                font-size: smaller;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="BG">
+            <div id="login">
+                <h2>
+                    LOGIN
+                </h2>
+                <div id="email">
+                    <img id="email_icon" src="email.png" alt="">
+                    <input id="email_in" type="text" placeholder="example@gmail.com">
+                </div>
+                <div id="password">
+                    <img id="password_icon" src="password.png" alt="">
+                    <input id="password_in" type="password" placeholder="" >
+                </div>
+                <input id="remember" type="checkbox" name="remember_me"> <label for="remember_me">Remember me</label>
+                <button id="Enter" >LOGIN</button>
+                <h5>Or log in with</h5>
+                
+                <button id="googlebtn" ><img id="google_icon" src="google_icon-removebg-preview.png" alt="">Google</button>
+                <button id="facebookbtn" ><img id="facebook_icon" src="Facebook-.png" alt="">facebook</button>
+                <h4 id="h5">Not a member? <a href="#" style="color: gray;">Sign up now</a></h4>
+            </div>
+        </div>
+    </body>
+</html>
