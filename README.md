@@ -15,11 +15,6 @@ Create this page with ```HTML && CSS``` :
 ####
 
 ![Screenshot (418)](https://user-images.githubusercontent.com/91725214/159161934-5d8d3fe1-e94d-4f7c-9d40-ad84f700de56.png)
-
-# Certificates:
-<a href="https://www.sololearn.com">www.sololearn.com </a>
-
-![cert-1014-23586582](https://user-images.githubusercontent.com/91725214/159041140-e9fd612b-116e-4200-9589-29fde43b6594.jpg)
 # Assignment 5:
 Design Google logo with ```CSS```:
 ####
@@ -28,3 +23,8 @@ Design Google logo with ```CSS```:
 Google Home Design with ```CSS```:
 ####
 ![Screenshot (423)](https://user-images.githubusercontent.com/91725214/159299722-efd2a0dc-0bfd-4f76-a9a9-72050b337a66.png)
+
+# Certificates:
+<a href="https://www.sololearn.com">www.sololearn.com </a>
+
+![cert-1014-23586582](https://user-images.githubusercontent.com/91725214/159041140-e9fd612b-116e-4200-9589-29fde43b6594.jpg)
