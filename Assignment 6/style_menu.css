@@ -1,0 +1,60 @@
+#menubar
+{
+    padding: 0;
+    position: absolute;
+    top: 2%;
+    list-style: none;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgb(44, 44, 44), darkgray);
+    width: 650px;
+    height: 50px;
+    float: left;
+    border-radius: 20px;
+}
+#menubar li
+{
+    
+    float: left;
+    
+}
+#menubar li a
+{
+    display: flex;
+    border-radius: 11px;
+    background-image: linear-gradient(rgb(221, 224, 49),rgb(55, 167, 51));
+    color: aliceblue;
+    padding: 10px;
+    margin: 6px;
+    text-decoration: none;
+}
+#menubar li a:hover
+{
+    border-radius: 40%;
+    background-image: linear-gradient(rgb(7, 2, 2), rgb(53, 42, 197));
+}
+#menubar li input
+{
+    position: absolute;
+    top: 18.5%;
+    border-radius: 10px;
+    padding: 6px;
+    margin-left: 10px;
+    display: flex;
+}
+#menubar li:hover .submenu{
+    display: block;
+} 
+.submenu
+{
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    background-image: linear-gradient(darkgray,rgb(12, 12, 12));
+    
+    
+}
+#menubar .submenu li
+{
+    float: none;
+    margin-bottom: 5px;
+}
