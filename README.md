@@ -26,6 +26,11 @@ Google Home Design with ```CSS```:
 Login page Design with ```CSS```:
 ####
 ![Screenshot (424)](https://user-images.githubusercontent.com/91725214/159351664-63e65623-1aee-4400-b3bd-f73d7d986aac.png)
+# Assignment 6:
+####
+Design Logo with ```html css```:
+####
+![Screenshot (425)](https://user-images.githubusercontent.com/91725214/159526044-30a0184c-650f-474b-9689-25b9112680cd.png)
 
 # Certificates:
 <a href="https://www.sololearn.com">www.sololearn.com </a>
