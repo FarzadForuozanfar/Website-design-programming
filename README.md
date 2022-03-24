@@ -35,6 +35,8 @@ Design Logo with ```html css```:
 Design Menu Bar with ```html css```:
 ####
 ![Screenshot (427)](https://user-images.githubusercontent.com/91725214/159553473-c2dbb9c0-0fd0-401d-a680-fc068572049c.png)
+# Assignment 7:
+![FIFA](https://user-images.githubusercontent.com/91725214/160027640-dcfc6e81-04bb-4cd8-80ea-0f54359908f8.png)
 
 # Certificates:
 <a href="https://www.sololearn.com">www.sololearn.com </a>
