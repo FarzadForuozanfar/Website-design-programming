@@ -1,0 +1,388 @@
+#menu
+{
+    position:absolute;
+    list-style: none;
+    width: 100%;
+    height: 83px;
+    padding: 0;
+    margin-bottom: 0;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), darkgray);
+}
+#menu li
+{
+    
+    float: left;
+    
+}
+#menu img
+{
+    float: left;
+    width: 90px;
+}
+#menu li a
+{
+    display: flex;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px;
+    margin: 8px;
+    margin-left: 35px;
+    text-decoration: none;
+}
+#menu li a:hover
+{
+    border-radius: 20px;
+    background-image: linear-gradient(to right,rgb(136, 136, 136),rgb(33, 71, 77));
+    text-decoration:underline;
+}
+#menu input
+{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    background-image: linear-gradient(to right,rgb(212, 184, 203),rgb(114, 167, 211));
+    border-radius: 20px;
+    position: absolute;
+    right: 5.9%;
+    top: 5.6%;
+    width: 150px;
+    height: 50px;
+    transition: 1s;
+}
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+#menu input:active
+{
+    width: 350px;
+}
+#menu input:hover
+{
+    width: 350px;
+}
+#menu button
+{
+    position: absolute;
+    right: 1.5%;
+    top: 5.8%;
+    border-radius: 20px;
+    
+    
+}
+#menu button:hover
+{
+    border-color: yellow;
+    transform: scale(1.2,1.2);
+}
+#menu li:hover .submenu{
+    display: block;
+} 
+.submenu
+{
+    
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: none;
+    list-style: none;
+    padding-left: 0;
+    background-image: linear-gradient(rgb(12, 12, 12),darkgray);
+    
+    
+}
+#menu .submenu li
+{
+    float: none;
+    margin-bottom: 5px;
+}
+#Cover
+{
+    
+    width: 100%;
+}
+#Team
+{
+    margin-bottom: 45px;
+    display: block;
+    margin-top: 45px;
+    position:absolute;
+    background-image: linear-gradient(rgb(12, 12, 12),darkgray);
+    width: 100%;
+    height: 500px;
+}
+#Team h1
+{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+#team h1:hover{
+    text-decoration:underline;
+    transform: scale(1.3,1.3);
+}
+#Team img
+{
+    
+    display:flex;
+    position: absolute;
+    border-radius: 100%;
+    width: 150px;
+    
+}
+#team img:hover
+{
+    transform: scale(1.3,1.3);
+    
+}
+#Team p
+{
+    
+    top: 100%;
+
+    background-color: yellow;
+}
+#james 
+{
+    position: absolute;
+    left: 10%;
+}
+#alex
+{
+    position: absolute;
+    left: 27%;
+}
+#saeed
+{
+    position: absolute;
+    left: 45%;
+}
+#reid
+{
+    position: absolute;
+    left: 63%;
+}
+#andrea
+{
+    position: absolute;
+    
+    right: 10%;
+}
+#team h2
+{
+    color: aliceblue;
+    display:flex;
+    float: left;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 20px;
+    top: 60%;
+}
+h4
+{
+    color: aliceblue;
+    text-align: center;
+    display:flex;
+    float: left;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 20px;
+    top: 70%;
+}
+#Features
+{
+    
+    display: block;
+    
+    font-size: larger;
+    color: antiquewhite;
+    text-align: center;
+    position:absolute;
+    top: 208%;
+    background-image: linear-gradient(to right,rgb(219, 168, 204),rgb(58, 152, 175));
+    width: 100%;
+    height: 800px;
+}
+#Features h1:hover{
+    padding-left: 0;
+    margin-left: 0;
+    text-decoration:underline;
+    transform: scale(1.3,1.3);
+}
+.changes
+{
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    border-style: solid ;
+    border-color: black;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(61, 58, 58));
+    border-width: 2px;
+    width: 400px;
+    height: 600px;
+    left: 2.5%;
+}
+.changes:hover
+{
+    border-radius: 29px;
+    top: 15%;
+    transform: scale(1.0355,1.0355);
+    box-shadow: 15px 15px 30px 5px rgb(0, 0, 0);
+}
+.changes img
+{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 400px;
+    height: 320px;
+}
+.changes img:hover
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.buy
+{
+    
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position:absolute;
+    top: 320%;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(160, 160, 160));
+    width: 100%;
+    height: 700px;
+}
+.platform
+{
+
+    border-radius: 15px;
+    text-align: center;
+    background-image: linear-gradient(rgb(221, 150, 206),rgb(42, 202, 241));
+    padding: 10px;
+    border-style: solid ;
+    border-color: rgb(158, 20, 223);
+    position: absolute;
+    left: 3%;
+}
+.platform th
+{
+    color: aliceblue;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(10, 48, 83);
+    
+    font-size: xx-large;
+}
+.platform td
+{
+    padding-top: 15px;
+    font-size:large;
+}
+.platform input
+{
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(26, 153, 26);
+}
+.platform input:hover
+{
+    transform: scale(1.4,1.4);
+    background-color: green;
+    border-radius: 25px;
+}
+#contactus
+{
+    padding-left: 25px;
+    padding-top: 20px;
+    position: absolute;
+    top: 450%;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to right,rgb(221, 150, 206),rgb(42, 202, 241));
+}
+#contactus h2 ,h3
+{
+    padding-left: 30px;
+}
+#contactus img
+{
+    width: 30px;
+}
+#contactus div
+{
+
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    width: 600px;
+    height: 380px;
+    background-color: rgb(219, 219, 219);
+    
+}
+#contactus div input[type="text"] , input[type="email"]
+{
+    background-color: rgb(219, 219, 219);
+    width: 250px;
+    height: 25px;
+    border-style: none;
+    border-color: rgb(219, 219, 219);
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+#contactus div input[type="button"]
+
+{
+    position: absolute;
+    right: 5%;
+    background-color: rgb(52, 71, 180);
+    width: 80px;
+    height: 35px;
+    color: aliceblue;
+    font-size: larger;
+}
+#contactus div input[type="button"]:hover
+{
+    transform: scale(1.2,1.2);
+    background-color: blue;
+    border-radius: 20px;
+}
+#poster
+{
+    position: absolute;
+    top: 530%;
+    width: 100%;
+    left: 5px;
+}
+#followus
+{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-image: linear-gradient(to right,rgb(184, 117, 117),rgb(255, 0, 0));
+    top: 670%;
+}
+#followus h1
+{
+    color: aliceblue;
+    text-align: center;
+
+}
+#followus img
+{
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    padding-left: 150px;
+}
