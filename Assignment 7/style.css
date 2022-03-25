@@ -313,11 +313,23 @@ h4
 }
 #contactus h2 ,h3
 {
-    padding-left: 30px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding-left: 0;
+}
+#contactus h3
+{
+    position: absolute;
+    left: 10%;
 }
 #contactus img
 {
     width: 30px;
+}
+#contactus p{
+    font-size: larger;
+    padding-left: 10;
 }
 #contactus div
 {
@@ -370,19 +382,24 @@ h4
     width: 100%;
     height: 200px;
     position: absolute;
-    background-image: linear-gradient(to right,rgb(184, 117, 117),rgb(255, 0, 0));
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(46, 46, 46, 0.993));
     top: 670%;
 }
-#followus h1
+#followus h1 , h3
 {
     color: aliceblue;
     text-align: center;
+    padding: 0;
 
 }
 #followus img
 {
     position: absolute;
     width: 45px;
-    height: 40px;
-    padding-left: 150px;
+    
+    padding-left: 15px;
+}
+#followus img:hover
+{
+    transform: scale(1.4,1.4);
 }
