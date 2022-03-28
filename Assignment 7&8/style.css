@@ -11,9 +11,12 @@ body
 
 #menu
 {
-    position: fixed;
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+    position:fixed;
     list-style: none;
-    width: 100%;
+    width: 99%;
     height: 83px;
     padding: 0;
     margin-bottom: 0;
@@ -46,7 +49,7 @@ body
     background-image: linear-gradient(to right,rgb(136, 136, 136),rgb(33, 71, 77));
     text-decoration:underline;
 }
-#menu input
+#menu input[type="search"]
 {
     padding-left: 15px;
     color: rgb(0, 0, 0);
@@ -71,21 +74,19 @@ body
 {
     width: 350px;
 }
+
 #menu button
-{
-    width: 3%;
+    {
+    font-size: x-large;
+    width: 60px;
+    height: 35px;
     position: absolute;
     right: 1.5%;
     top: 15.5%;
     border-radius: 20px;
-    
-    
-}
-#menu button:hover
-{
-    border-color: yellow;
-    transform: scale(1.2,1.2);
-}
+    background-color:rgb(255, 255, 255);
+    }
+
 #menu li:hover .submenu{
     display: block;
 } 
@@ -162,14 +163,15 @@ body
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    
     background-image: linear-gradient(to right,rgb(219, 168, 204),rgb(58, 152, 175));
     width: 100%;
-    height: 1000px;
+    height: 800px;
 }
 #Features h1
 {
     
-    margin: 0;
+    margin: 50px;
     margin-top: 20;
     padding: 0;
     border:0;
@@ -179,7 +181,7 @@ body
     height: 50px;
     
 }
-#Features img
+#Features .col .change img
 {
     border-radius: 0;
 }
@@ -190,10 +192,10 @@ body
 #Features .col
 {
     box-sizing: border-box;
-    margin: 0;
-    padding-left: 10px;
+    padding-left: 30px;
+    
     width: 33.33%;
-    height: 60%;
+    height: 800px;
 }
 .changes
 {
@@ -204,8 +206,8 @@ body
     border-color: black;
     background-image: linear-gradient(rgb(255, 255, 255),rgb(61, 58, 58));
     border-width: 2px;
-    width: 400px;
-    height: 90%;
+    width: 82%;
+    height: 460px;
 }
 .changes:hover
 {
@@ -215,8 +217,8 @@ body
 #Features img
 {
     
-    width: 400px;
-    height: 320px;
+    width: 100%
+    
 }
 #Features .col .changes:hover
 {
@@ -423,8 +425,103 @@ body
     border-color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    #buy {
-      background-color: rgb(170, 21, 21);
+@media only screen and (max-width: 700px) {
+    #menu
+    {
+        font-size: larger;
+        margin: 0;
+        width: 100%;
+        height: 35;
     }
+    #menu input[type="search"]
+    {
+        font-size:x-small;
+        width: 60px;
+        height: 20px;
+        left: 83.5%;        
+        
+    }
+    #menu button
+    {
+        font-size: x-small;
+        height: 20px;
+        width: 22px;
+        left: 80%; 
+        padding: 0;
+    }
+
+    #menu input:active, #menu input:hover
+    {
+        padding: 0;
+        margin: 0;
+        width: 80px;
+    }
+
+    #menu li a
+    {
+        
+        font-size: 15px;
+        padding: 5px;
+        margin: 3.5px;
+        padding-top: 5px;
+        margin-left:5px;
+
+    }
+    #menu img
+    {
+        transform: scale(0.5,0.85);
+    }
+    #Team .col
+    {
+        margin-left: 50px;
+        width: 40%;
+        
+    }
+    #Team
+    {
+        height: 1155px;
+    }
+    #Features h1
+    {
+        margin:0px;
+    }
+    #Features .col{
+        width:66.66%;
+        height: 200px;
+        padding-left: 100px;
+        
+        
+    }
+    #Features .changes
+    {
+        width: 80%;
+        
+        
+    }
+    #Features
+    {
+        height: 1800px;
+    }
+    #buy .col{
+        width:66.66%;
+        height: 450px;
+        padding-left: 110px;
+        
+        
+    }
+    #buy
+    {
+        height: 1700px;
+    }
+    #suggest input[type="button"]
+    {
+        font-size: smaller;
+        right: 8%;
+        width: 60px;
+        height: 30px;
+    }
+    /*#suggest input[type="button"]:hover
+    {
+
+    }*/
   }
