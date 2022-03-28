@@ -37,7 +37,8 @@ Design Menu Bar with ```html css```:
 ![Screenshot (427)](https://user-images.githubusercontent.com/91725214/159553473-c2dbb9c0-0fd0-401d-a680-fc068572049c.png)
 # Assignment 7:
 
-![screencapture-file-F-Web-Assignment-7-fifa22-html-2022-03-25-11_19_46](https://user-images.githubusercontent.com/91725214/160069778-a4f1bc1e-7e2a-42dd-89dd-83556b0f0d39.png)
+![screencapture-file-F-Web-Assignment-7-8-fifa22-html-2022-03-28-16_09_44](https://user-images.githubusercontent.com/91725214/160391119-3eae7077-55cf-4c44-a4d5-4e3d370b2299.png)
+
 
 # Certificates:
 <a href="https://www.sololearn.com">www.sololearn.com </a>
