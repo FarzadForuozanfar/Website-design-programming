@@ -1,0 +1,478 @@
+body
+{
+    padding: 50px;
+}
+.row
+{
+    
+    direction: rtl;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    background-color: rgb(233, 228, 216);
+    
+    border-bottom-right-radius: 150px;
+    margin-bottom: 150px;
+}
+header
+{
+    display:flex;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+header #logo
+{
+    position: relative;
+    width: 20%;
+    left: 0;
+    
+}
+header #login
+{
+    padding: 1.5px;
+    position: relative;
+    right: 70%;
+    top: 65px;
+    width: 115px;
+    height: 50px;
+    border-style: none;
+    background-color: #eb1492;
+    font-family:'Segoe UI' ;
+    font-size: 17px;
+    color: white;
+    border-radius: 15px;
+}
+header #login:hover
+{
+    background-color: #f155b0;
+}
+header a
+{
+    right: 48%;
+    font-family:'Segoe UI' ;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    position: relative;
+    top: 77px;
+    height: 20px;
+    
+}
+header a:hover
+{
+    text-decoration:underline;
+}
+#sefaresh
+{
+    
+    position: relative;
+    width: 35%;
+    font-family:'Segoe UI' ;
+    padding: 15px;
+    padding-right: 70px;
+    margin: 0;
+    
+    text-align: right;
+}
+#sefaresh h1::after
+{
+    content: "غذا";
+    color: #eb1492;
+}
+#sefaresh input[type="search"]
+{
+    font-size: larger;
+    box-shadow: 2px 2px 2px 1px;
+    padding-right: 15px;
+    width: 90%;
+    height: 60px;
+    border-style: none;
+    border-radius: 101px;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow:  -50px 50px 100px #5a5a5a,
+             50px -50px 100px #ffffff;
+}
+#sefaresh button
+{
+    color: #cacaca;
+    position: absolute;
+    left: 70px;
+    top: 72.4%;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    border-radius: 94px;
+    background: #ff00d9;
+    box-shadow:  20px 20px 40px #c400a7,
+                 -20px -20px 40px #ff00ff;
+    transition: 1s ;
+}
+#sefaresh button:hover
+{
+    color: rgb(70, 68, 68);
+    transform: scale(1.1,1.1);
+    border-radius: 97px;
+background: linear-gradient(145deg, #e67cd5, #ff94fe);
+box-shadow:  36px 36px 72px #a35898,
+             -36px -36px 72px #ffbcff;
+}
+#menu-pizza
+{
+    width: 53%;
+    position: absolute;
+    left: 0;
+    top: 19%;
+}
+#menu
+{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    padding-top: 10px;
+    background: rgba(121, 121, 121, 0.39);
+    box-sizing: border-box;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.8);
+    backdrop-filter: blr(10px);
+    
+}
+#menu .submenu
+{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    width: 11.11%;
+    transition: 0.9s;
+}
+#menu .submenu img
+{
+    right: 51px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-bottom: 0px;
+}
+#menu .submenu a
+{
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    text-decoration: none;
+    font-family:'Segoe UI' ;
+    color: rgb(0, 0, 0);
+
+}
+#menu .submenu:hover 
+{
+    cursor:pointer;
+    background-color: rgba(216, 31, 201, 0.5);
+}
+.row-2
+{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    box-sizing: border-box;
+    padding-bottom: 190px;
+    
+    
+}
+.col-6
+{
+    position: relative;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    margin-right: 0;
+    width: 15%;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: silver;
+    box-shadow: 10px 20px 15px 0.5px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    
+}
+.col-6 .category
+{
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    
+}
+.col-6 p
+{
+    font-family:  sans-serif;
+    margin: 0;
+    padding: 3px;
+    padding-right: 9px;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #5a5a5a;
+    transition: 0.5s;
+    
+}
+.col-6:hover , .col-6 p:hover 
+{
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 10px 15px 1px rgba(0,0,0,0.8);
+}
+.row-1
+{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-right: 150px;
+    font-family: sans-serif;
+    direction: rtl;
+    background-color: rgb(233, 228, 216);
+    border-bottom-right-radius: 180px;
+    margin-bottom: 150px;
+    width: 100%;
+}
+.row-1 h1
+{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.row-1 #appimg
+{
+    width: 30%;
+    position: absolute;
+    top: -200px;
+    left: 0;
+}
+.row-1 input[type="text"]
+{
+    width: 25%;
+    direction: ltr;
+    height: 45px;
+    text-align: right;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  13px 13px 52px #b5b5b5,
+                 -13px -13px 52px #ffffff;
+}
+.row-1 input[type="text"]:focus , .row-1 input[type="text"]:hover
+{
+    
+    border-style: solid;
+    border-color: #c400a7;
+}
+.row-1 input[type="button"]
+{
+    font:bold;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    font-family:  Tahoma;
+    background: linear-gradient(145deg, #e605bc, #ff05e0);
+    position: absolute;
+    top: 59%;
+    right: 26.6%;
+    width: 80px;
+    height: 35px;
+    
+
+}
+.row-1 input[type="button"]:hover
+{
+    cursor: pointer;
+    transform: scale(1.08,1.08);
+}
+.row-1 .download
+{
+
+    margin: 50px;
+    width: 100%;
+}
+.row-1 .download img
+{
+    margin: 20px;
+}
+.row-1 .download img:hover
+{
+    cursor: pointer;   
+}
+.row-1 .col-2
+{
+
+    width: 50%;
+}
+.row-1 .col-2 button
+{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 50px;
+    background-color: #ff05e0;
+    border-style: none;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    transition: background-color 0.8s;
+}
+.row-1 .col-2 button:hover
+{
+    cursor: pointer;
+    background-color:#ff6ae6;
+}
+.row .col-11{
+    
+    border-style: solid;
+    border-color: #5a5a5a;
+    padding: 12px;
+    width:8%;
+    box-sizing: border-box;
+    background-color: rgb(249,250,251);
+    position: relative;
+    color: #ffffff;
+    
+
+}
+
+.city li {
+    font-family:serif;
+    color: black;
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 50px;
+ 
+}
+footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 230, 255);
+    direction: rtl;
+}
+footer #logo
+{
+    margin-left: 50px;
+    width: 9%;
+}
+footer .col-2 p
+{
+    width: 20%;
+    margin: 0;
+    position: relative;
+    right: 50%;
+    top: 0;
+}
+footer .social-media
+{
+    position: relative;
+    top: 0%;
+    right: 40%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer .social-media button
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  18px 18px 36px #acacac,
+             -18px -18px 36px #ffffff;
+             border-style: none;
+}
+footer .social-media button:hover
+{
+    border-radius: 60px;
+    background: linear-gradient(255deg, #cacaca, #f0f0f0);
+    box-shadow:  -20px 20px 40px #a8a8a8,
+             20px -20px 40px #ffffff;
+}
+header #dark
+{
+    top: 70px;
+    left: -300px;
+    position: relative;
+    width: 90px;
+    height: 35px;
+    color: white;
+    border-radius: 76px;
+    background: linear-gradient(145deg, #2c2525, #252020);
+    box-shadow:  6px 6px 16px #241e1e,
+                 -6px -6px 16px #2e2828;
+}
+@media only screen and (max-width: 900px)
+{
+    header a
+    {
+        right: 38%;
+
+    }
+    header .material-icons
+    {
+        font-size: 16px;
+    }
+    header #login
+    {
+        right: 65%;
+        width: 85px;
+        height: 40px;
+        font-size: 11px;
+    }
+    #menu-pizza
+    {
+        width: 48%;
+        top: 30%;
+    }
+    #sefaresh
+    {
+        width: 45%;
+    }
+    #sefaresh button
+    {
+        width: 40px;
+        height: 40px;
+        top: 74%;
+    }
+    #menu
+    {
+        margin-top: 20px;
+    }
+    .col-6
+    {
+        width: 30%;
+    }
+    #appimg
+    {
+        display: none;
+    }
+    .row-1 input[type="text"]
+    {
+        width: 45%;
+    }
+    .row-1 input[type="button"]
+    {
+        top: 55.5%;
+        right: 43.6%;
+    }
+
+}
