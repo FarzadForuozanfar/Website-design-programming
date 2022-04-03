@@ -19,14 +19,14 @@ left_hand.onclick = function()
             }
     right_hand.onclick = function() 
     {
-        right_hand.style.transform = "rotate(-130deg)";
-        right_hand.style.transition = "2s";
+        right_hand.style.transform = "rotate(-180deg)";
+        right_hand.style.transition = "3s";
 
         setTimeout(function ()
          {
             right_hand.style.transform = "rotate(0deg)";
-            right_hand.style.transition = "2s";
-        }, 2000)
+            right_hand.style.transition = "3s";
+        }, 1500)
     }
     body_bot.onclick = function() 
     {
