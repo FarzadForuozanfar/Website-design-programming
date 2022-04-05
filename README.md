@@ -53,7 +53,10 @@ https://user-images.githubusercontent.com/91725214/161439855-95736108-a517-4cad-
 Dark mode(snappfood)
 ####
 ![screencapture-file-F-Web-Assignment11-Dark-mode-snappfood-index-html-2022-04-03-21_40_28](https://user-images.githubusercontent.com/91725214/161439873-bbf97720-a09d-43f0-8356-4d8835dfd097.png)
+# Assignment 12:
+Calculator :
 
+![Screenshot (447)](https://user-images.githubusercontent.com/91725214/161685199-08c5ea50-99fd-4229-a30e-bc65c27796de.png)
 
 # Certificates:
 <a href="https://www.sololearn.com">www.sololearn.com </a>
