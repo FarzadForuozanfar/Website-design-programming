@@ -31,7 +31,7 @@ sum.onclick = function()
         current_op = "+";
         result += parseFloat(display.value);
         display.value = "";
-        window.alert(result);
+        
     }
     catch(err) 
     {
@@ -55,7 +55,7 @@ mines.onclick = function()
             
             
         }
-        window.alert(result);
+        
         display.value = "";
     }
     catch(err) 
@@ -81,7 +81,7 @@ btn_multi.onclick = function()
             
             
         }
-        window.alert(result);
+        
         display.value = "";
     }
     catch(err) 
@@ -107,7 +107,7 @@ division.onclick = function()
             
             
         }
-        window.alert(result);
+        
         display.value = "";
     }
     catch(err) 
