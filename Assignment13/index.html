@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tic-Toc-Toe</title>
+        <link rel="icon" type="image/x-icon" href="img/logo.png">
+        <meta charset="utf-8">
+        <meta name="description" content="Tic-Toc-Toe">
+        <meta name="keywords" content="html, css, javascripts, Tic-Toc-Toe, glassmorphism,glassmorphism theme,Tic-Toc-Toe glassmorphism, Tic-Toc-Toe game" >
+        <meta name="author" content="farzad foroozanfar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div id="main">
+        
+            <div id="play_mode">
+                <input type="radio" name="play-mode" value="1 Player" > 1 Player
+                
+                <input type="radio" name="play-mode" value="2 Player"> 2 Players
+            </div>
+            
+            <div id="Scores">
+                <h3 style="width: 100%;"> Scores: </h3>
+                <div class="col-3">
+                    <span style="color: tomato; font-size: 40px;">X : <b style="margin-left: 20px;">0</b></span>
+                </div>
+                <div class="col-3">
+                    <span style="color: rgb(227, 255, 71);">Draw : <b style="margin-left: 20px;">0</b></span>
+                </div>
+                <div class="col-3">
+                    <span style="color: skyblue; font-size: 40px;">O : <b style="margin-left: 20px;">0</b></span>
+                </div>
+                
+            </div>
+
+            <div id="game-box">
+                <table>
+
+                    <tr>
+                        <td>
+                            <button class="cell" onclick="playing(0,0)"></button>
+                        </td>
+
+                        <td>
+                            <button class="cell" onclick="playing(0,1)"></button>
+
+                        </td>
+
+                        <td>
+                            <button class="cell" onclick="playing(0,2)"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button class="cell" onclick="playing(1,0)"></button>
+                        </td>
+
+                        <td>
+                            <button class="cell" onclick="playing(1,1)"></button>
+
+                        </td>
+
+                        <td>
+                            <button class="cell" onclick="playing(1,2)"></button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button class="cell" onclick="playing(2,0)"></button>
+                        </td>
+
+                        <td>
+                            <button class="cell" onclick="playing(2,1)"></button>
+
+                        </td>
+
+                        <td>
+                            <button class="cell" onclick="playing(2,2)"></button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button id="reset-game"> Reset Game </button>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

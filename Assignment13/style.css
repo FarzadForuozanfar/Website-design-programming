@@ -1,0 +1,119 @@
+
+#main
+{
+    font-family: 'Courier New';
+    padding-bottom: 150px;
+    display: grid;
+    place-items:center;
+    background-image: url("img/backgruond.jpg");
+    background-size: cover;
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+#main #play_mode
+{
+    margin-top: 30px;
+    background: rgba( 236, 221, 235, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5px;
+}
+#Scores 
+{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+#Scores h3{
+    text-align: center;
+}
+#Scores .col-3
+{
+    width: 250px;
+    height: 55px;
+    box-sizing: border-box;
+    margin-left: 150px;
+    padding: 5px 10px 10px 50px;
+    background: rgba( 236, 221, 235, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#game-box
+{
+    margin-top:  20px;
+}
+.cell
+{
+    font-family: 'Courier New';
+    font-size: 75px;
+    width: 140px;
+    height: 135px;
+    background: rgba( 236, 221, 235, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#reset-game
+{
+    color: white;
+    font-size: x-large;
+    margin-top: 20px;
+    background: rgba( 232, 88, 223, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#reset-game:hover
+{
+    background: rgba( 232, 88, 223, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#reset-game:active
+{
+    background: rgba(192, 52, 183, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(33, 46, 221, 0.37);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 50px;
+    border: 1px solid rgba(53, 50, 50, 0.18);}
+.cell:active
+{
+    
+    width: 140px;
+    height: 135px;
+    background: rgba(241, 197, 239, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(21, 29, 139, 0.37);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border: 1px solid rgba(53, 50, 50, 0.18);
+}
+.X
+{
+    color: tomato;
+    
+}
+.O
+{
+    color: skyblue;
+    
+}
