@@ -16,25 +16,25 @@
         <div id="main">
         
             <div id="play_mode">
-                <input type="radio" name="play-mode" value="1 Player" > 1 Player
+                <input type="radio" name="playmode" id="one-player" value="1 Player" onclick="change_mode(1)"> 1 Player
                 
-                <input type="radio" name="play-mode" value="2 Player"> 2 Players
+                <input type="radio" name="playmode" id="two-player" value="2 Player" onclick="change_mode(2)"> 2 Players
             </div>
             
             <div id="Scores">
                 <h3 style="width: 100%;"> Scores: </h3>
                 <div class="col-3">
-                    <span style="color: tomato; font-size: 40px;">X : <b style="margin-left: 20px;">0</b></span>
+                    <span style="color: tomato; font-size: 40px;">X : <b id="Xscore" style="margin-left: 20px;">0</b></span>
                 </div>
                 <div class="col-3">
-                    <span style="color: rgb(227, 255, 71);">Draw : <b style="margin-left: 20px;">0</b></span>
+                    <span style="color: rgb(227, 255, 71);">Draw : <b id="draw" style="margin-left: 20px;">0</b></span>
                 </div>
                 <div class="col-3">
-                    <span style="color: skyblue; font-size: 40px;">O : <b style="margin-left: 20px;">0</b></span>
+                    <span style="color: skyblue; font-size: 40px;">O : <b id="Oscore" style="margin-left: 20px;">0</b></span>
                 </div>
                 
             </div>
-
+            <h1 id="winner"></h1>
             <div id="game-box">
                 <table>
 
@@ -84,7 +84,7 @@
                     </tr>
                 </table>
             </div>
-            <button id="reset-game"> Reset Game </button>
+            <button onclick="Reset_game()" id="reset-game"> Reset Game </button>
         </div>
         <script src="scripts.js"></script>
     </body>
