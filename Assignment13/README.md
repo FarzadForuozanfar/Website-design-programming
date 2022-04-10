@@ -1,4 +1,4 @@
-# Assignment 13(Tic Toc Toe) :
+# Assignment 13(Tic Tac Toe) :
 Demo :
 
 
