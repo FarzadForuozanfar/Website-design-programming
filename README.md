@@ -67,6 +67,6 @@ Demo :
 
 # Certificates:
 <a href="https://www.sololearn.com">www.sololearn.com </a>
-
+![image](https://user-images.githubusercontent.com/91725214/162985154-bdbe519e-5052-4e75-a188-085c16e6770c.png)
 ![cert-1014-23586582](https://user-images.githubusercontent.com/91725214/159041140-e9fd612b-116e-4200-9589-29fde43b6594.jpg)
-![CSS_certificate](https://user-images.githubusercontent.com/91725214/162794473-3cd66e3b-9024-419d-862e-f8d5a2ca6d85.jpg)
+
