@@ -1,0 +1,56 @@
+#main
+{
+    box-sizing: border-box;
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(131, 131, 115);
+    top: 30px;
+    left: 20%;
+}
+.row-2
+{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    height: 50%;
+    width: 100%;
+    
+}
+.row-2 h1 , .row-2 p
+{
+    display: inline;
+}
+.row-2 button
+{
+    position: relative;
+    top: 5px;
+    left: 60%;
+    background-color: skyblue;
+    padding-left: 5.5px;
+    padding-top: 5px;
+    width: 38px;
+    height: 38px;
+    border-style: none;
+    border-radius: 100%;
+}
+.row-2 button:hover
+{
+    border-style: solid;
+    border-width: 2.2px;
+    border-color: lightblue;
+}
+.row-2 button:active
+{
+    border-style: solid;
+    border-width: 2.2px;
+    border-color: white;
+}
+.red-color 
+{
+    color:rgb(255, 255, 255);
+}
+svg
+{
+    color: skyblue;
+}

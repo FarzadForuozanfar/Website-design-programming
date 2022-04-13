@@ -1,0 +1,130 @@
+*
+{
+    box-sizing: border-box;
+    padding: -1pt;
+    margin: 0;
+    outline: none;
+}
+body
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(237, 146, 165);
+
+}
+#main
+{
+    
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: flex;
+   
+}
+.box
+{
+    
+    width: 90.7%;
+    height: 91%;
+    position: relative;
+    border-radius: 50%;
+    border:  10px solid white;
+    overflow: hidden;
+    transition-duration: 4.9s;
+}
+span
+{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    position: absolute;
+
+
+}
+.span1
+{
+    position: absolute;
+    clip-path: polygon(0% 91%, 100% 50%, 0 8%);
+    background-color: aqua;
+    top: 110px;
+    left: 0px;
+}
+.span2
+{
+    position: absolute;
+    clip-path: polygon(100% 92%, 0 50%, 100% 8%);
+    background-color: rgb(208, 255, 0);
+    top: 110px;
+    right: 0px;
+}
+.span3
+{
+    position: absolute;
+    clip-path: polygon(50% 0, 8% 100%, 92% 100%);
+    background-color: rgb(255, 123, 0);
+    left: 110px;
+    bottom: 0px;
+}
+.span4
+{
+    position: absolute;
+    clip-path: polygon(50% 100%, 92% 0, 8% 0%);
+    background-color: rgb(0, 255, 94);
+    top: 0px;
+    left: 110px;
+}
+.box2
+{
+    width: 100%;
+    height: 100%;
+transform: rotate(-135deg);
+
+}
+span b
+{
+    color: beige;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    font-size: 27px;
+    text-align: center;
+    background-color: gold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 1px 1px silver;
+}
+#spin
+{
+    border-style: none;
+    position: absolute;
+    top: 100%;
+    width: 180px;
+    height: 35px;
+    font-size: x-large;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #c612b4, #eb15d6);
+    box-shadow:  6px 6px 20px #bb11aa,
+                 -6px -6px 20px #fd17e6;
+
+}
+#spin:hover
+{
+    border-radius: 50px;
+    background: #761e6d;
+    box-shadow:  6px 6px 20px #641a5d,
+                 -6px -6px 20px #88237d;
+}
+#spin:active
+{
+    border-radius: 50px;
+    background: #761e6d;
+    box-shadow: inset 6px 6px 20px #641a5d,
+                inset -6px -6px 20px #88237d;
+}
