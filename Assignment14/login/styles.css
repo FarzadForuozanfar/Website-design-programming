@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-family:sans-serif;
+    color:black;
+}
+button
+{
+    color: white;
+}
+#signup-btn{
+    width: 450px;
+    height: 50px;
+    background-color: skyblue;
+    
+    border-style: none;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#form{
+    width: 450px;
+    background-color: lightgray;
+    border-radius: 15px;
+    display: none;
+}
+#login-title
+{
+    position: relative;
+}
+#dark-mode{
+    position: absolute;
+    right: 65px;
+    
+}
+
+h3{
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+#in{
+    margin-right: 10px;
+    margin-bottom: 2px;
+    width: 380px;
+    height: 35px;
+}
+#single{
+    margin-right: 10px;
+}
+#married{
+    margin-right: 10px;
+}
+#child{
+    display: none;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+#lapel-child
+{
+    display: none;
+}
+#login{
+    width: 100%;
+    height: 35px;
+    background-color: blue;
+    
+    border-style: none;
+    border-radius: 15px;
+    font-size:15px;
+    margin-top: 10px;
+    
+}
+#child-title{
+    margin-right: 10px;
+}
+#plus{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+}
+#mines{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+.wife{
+    display: none;
+}
+#child-title{
+    display: none;
+}

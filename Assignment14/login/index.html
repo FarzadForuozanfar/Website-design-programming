@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/x-icon" href="logo.ico">
+        <meta charset="utf-8">
+        <meta name="description" content="LOGIN">
+        <meta name="keywords" content="html, css, javascripts, LOGIN,">
+        <meta name="author" content="farzad foroozanfar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LOGIN</title>
+        <link href="styles.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <button id="signup-btn" onclick="login()">SIGN UP</button>
+        <div id="form">
+            <div id="login-title">
+                <h5>Sign up</h5>
+            
+                <h5 id="dark-mode">Dark Mode
+                    <input onclick="ChangeMode()" type="checkbox" id="dark-check">
+                </h5>
+            </div>
+         
+            <hr>
+
+            <h3>Name</h3>
+            <input type="text" placeholder="Enter name" id="in">
+            <h3>Email</h3>
+            <input type="text" placeholder="Example@gmail.com" id="in">
+            <p ><b>Information is protected and is not displayed to anyone</b></p>
+            <h3>Password</h3>
+            <input type="password" placeholder="Password" id="in" style="margin-bottom: 10px;">
+            <br>
+            <input type="radio" id="single" name="marital status" value="single" onclick="if(this.checked)single()">
+            <label for="single">Single</label><br>
+            <input type="radio" id="married" name="marital status" value="married" onclick="if(this.checked)married()">
+            <label for="married">Married</label><br>
+
+            <h3 class="wife"> wife`s name</h3>
+            <input class="wife" type="text" placeholder="Enter name" id="in">
+
+            <input type="checkbox" id="child" onclick="havechild()">
+            <label id="lapel-child" for="child">Have Child</label><br>
+
+            <p id="child-title">childeren
+                <button id="plus" onclick="addchild()">+</button>
+                <button id="mines" onclick="removechild()">-</button>
+            </p>
+            
+
+            <div id="childeren">
+
+            </div>
+
+            <button id="login">Submit</button>
+
+        </div>
+        
+    </body>
+    <script src="scripts.js"></script>
+
+</html>
