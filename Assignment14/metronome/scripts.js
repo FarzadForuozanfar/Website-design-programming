@@ -11,7 +11,6 @@ function play_btn()
     {
         play_status = "play";
         bpm_value = document.getElementById("metronome-bar").value;
-        alert(bpm_value);
         time = setInterval(sound,60000 / bpm_value);
         play.innerHTML = "&#x23F8";
         
