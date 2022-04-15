@@ -56,3 +56,18 @@ function login(){
     form.style.display = "block";
     
 }
+@media only screen and (max-width: 600px) 
+{
+    #signup-btn
+    {
+        width: 100%;
+    }
+    #form
+    {
+        width: 100%;
+    }
+    #in
+    {
+        width:340px;
+    }
+}
