@@ -1,3 +1,6 @@
+var label = document.getElementById("lapel-child");
+var child = document.getElementById("child");
+var btn_add_child = document.getElementById("child-title");
 function ChangeMode(){
     var dark = document.getElementById("dark-check");
     var back = document.getElementById("form");
@@ -22,26 +25,28 @@ function removechild(){
         childeren.removeChild(childeren.lastChild);
 }
 function havechild(){
-    var child_btn = document.getElementById("child-title");
+
     if (document.getElementById("child").checked)
     {
-        child_btn.style.display = "block";
+        btn_add_child.style.display = "block";
         document.getElementById("childeren").style.display = "block";
     }
     else
     {
-        child_btn.style.display = "none";
+        btn_add_child.style.display = "none";
         document.getElementById("childeren").style.display = "none";
     }
 }
 function single(){
     var wife = document.getElementsByClassName("wife");
+    btn_add_child.style.display ="none"
     wife[0].style.display = "none";
     wife[1].style.display = "none";
+    child.style.display = "none";
+    label.style.display = "none";
 }
 function married(){
-    var label = document.getElementById("lapel-child");
-    var child = document.getElementById("child");
+    
     var wife = document.getElementsByClassName("wife");
     wife[0].style.display = "block";
     wife[1].style.display = "block";
@@ -55,19 +60,4 @@ function login(){
     title.style.display = "flex";
     form.style.display = "block";
     
-}
-@media only screen and (max-width: 600px) 
-{
-    #signup-btn
-    {
-        width: 100%;
-    }
-    #form
-    {
-        width: 100%;
-    }
-    #in
-    {
-        width:340px;
-    }
 }
