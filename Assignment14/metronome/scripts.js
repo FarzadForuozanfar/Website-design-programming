@@ -11,7 +11,7 @@ function play_btn()
     {
         play_status = "play";
         bpm_value = document.getElementById("metronome-bar").value;
-        time = setInterval(sound,60000 / bpm_value);
+        time = setInterval(sound,60001 / bpm_value);
         play.innerHTML = "&#x23F8";
         
     }
@@ -35,11 +35,7 @@ function change_value()
 {
     bpm_value = document.getElementById("metronome-bar").value;
     bpm_output.innerHTML = bpm_value;
-    if(play_status == "puase")
-    {
-        clearInterval(time);
-        play_btn();
-    }
+    
 }
 function Plus(){
     bpm_value = document.getElementById("metronome-bar");
