@@ -1,0 +1,93 @@
+#link
+{
+    color: aliceblue !important; 
+}
+#link:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+    
+    background-image: linear-gradient(to right,black, rgb(78, 75, 75));
+    border-radius: 15px;
+}
+#Team
+{
+    padding: 25px;
+    color: aliceblue;
+}
+#Team img
+{
+    margin-bottom: 15px;
+    border-radius: 100%;
+    border-style:outset;
+    border-color: aliceblue;
+    border-width: 10px;
+}
+#Team img:hover
+{
+    
+    transform: scale(1.079,1.079);
+    transition: 2s;
+}
+form
+{
+    box-shadow: 10px 15px 15px;
+}
+form input[type="text"]
+{
+    width: 50%;
+    border-style: none;
+}
+#send
+{
+    font-size: 25px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+footer
+{
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,black, gray);
+}
+footer .social-media
+{
+    
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer .social-media button
+{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  4px 4px 8px #acacac,
+             -4px -4px 8px #ffffff;
+             border-style: none;
+}
+footer .social-media button:hover
+{
+    border-radius: 60px;
+    background: linear-gradient(255deg, #cacaca, #f0f0f0);
+    box-shadow:  -10px 10px 20px #a8a8a8,
+             10px -10px 20px #ffffff;
+}
+@media only screen and (max-width: 680px) {
+
+    #send
+    {
+        right: 19% !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    #send
+    {
+        right: 23% !important;
+    }
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="Data/EAicon.png">
+        <meta charset="utf-8">
+        <meta name="description" content="FIFA22">
+        <meta name="keywords" content="html, css, javascripts, bootstrap5, responsive, FIFA, FIFA22">
+        <meta name="author" content="farzad foroozanfar">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FIFA 22</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        
+    </head>
+    <body>
+      <!-- body -->
+        <div class="container-fluid">
+          <!-- nav bar-->
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to right, black, gray);">
+                <div class="container-fluid">
+                  <a href="#">
+                      <img src="Data/EAicon.png" alt="logo" style="width: 70px;">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a id="link" class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a id="link" class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a id="link" class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Game Modes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a id="link" class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          News & Media
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit" style="color: aliceblue;">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              <!-- slider -->
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Data/slide1.jpg" class="d-block w-100" alt="slide1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Data/slide2.jpg" class="d-block w-100" alt="slide2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Data/slide3.jpg" class="d-block w-100" alt="slide3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Data/slide4.jpg" class="d-block w-100" alt="slide4">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- our team -->
+              <div class="container-fluid">
+                  <div class="row" id="Team" style="text-align: center;  background-image: linear-gradient(to right, black, gray);">
+                    <h1>Our Team</h1>
+                    <div class="col-lg-3 col-md-6 col-sm-12" >
+                        <img src="Data/Alexander Schmidt.png" alt="Alexander Schmidt">
+                        <h4>Alexander Schmidt</h4>
+                        <h5>Manager</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <img src="Data/Reid Buckmaster.jfif" alt="Reid Buckmaster">
+                        <h4>Reid Buckmaster</h4>
+                        <h5>Manager</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <img src="Data/Saeed Yazdanian.jfif" alt="Saeed Yazdanian">
+                        <h4>Saeed Yazdanian</h4>
+                        <h5>Manager</h5>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                      <img src="Data/James Creavalle.jfif" alt="James Creavalle">
+                        <h4>James Creavalle</h4>
+                        <h5>Manager</h5>
+                    </div>
+                  </div>
+              </div>
+              <!-- New Features -->
+              <div class="container-fluid">
+                <div class="row" id="new-featuers" style=" padding: 12px; text-align: center; justify-content: center;  background-image: linear-gradient(to right, pink, skyblue);">
+                  <h1 style="margin-bottom: 15px;">New Features</h1>
+                  <div class="col-lg-3 col-md-12" style="margin-bottom: 50px;">
+                    <div class="card">
+                        <img src="Data/gamemode.jpg" class="card-img-top" alt="gamemode">
+                        <div class="card-body" style="color: aliceblue; background-image: linear-gradient(rgb(161, 161, 161),rgb(71, 71, 71));">
+                          <h5 class="card-title">Game Modes</h4><hr>
+                          <p class="card-text">A brand new goalkeeper system brings a new level of intelligence to the last line of defence, unlocking more reliable shot-stopping and smarter decision-making between the posts. Goalkeeper positioning personality replicates the different styles of keepers throughout the game.</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                  </div>
+                  <!---->
+                  <div class="col-lg-3 col-md-6" style="margin-bottom: 50px;">
+                    <div class="card">
+                        <img src="Data/career.jpg" class="card-img-top" alt="career">
+                        <div class="card-body" style="color: aliceblue; background-image: linear-gradient(rgb(161, 161, 161),rgb(71, 71, 71));">
+                          <h5 class="card-title">Career</h4><hr>
+                          <p class="card-text">Create Your Club
+                            In FIFA 22, you now have the ability to create your own team in Manager Career, which is something I know a lot of you have been passionately requesting over the years.Kits, crests, and your base stadium can be changed at the beginning of every new season.</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                  </div>
+                  <!---->
+                  <div class="col-lg-3 col-md-6" style="margin-bottom: 50px;">
+                    <div class="card">
+                        <img src="Data/proclub.jpg" class="card-img-top" alt="proclub">
+                        <div class="card-body" style="color: aliceblue; background-image: linear-gradient(rgb(161, 161, 161),rgb(71, 71, 71));">
+                          <h5 class="card-title">Pro Club</h4><hr>
+                          <p class="card-text">Our main goal for this year of Pro Clubs is to make it easier to connect and play with your friends. Additionally, we are refreshing Virtual Pro progression and providing new team customization options. So let's jump right in start of every new season..</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                  </div>
+                  <!---->
+                </div>
+<!--end new featres--></div>
+              <!--price-->
+              <div class="container-fluid">
+                <div class="row"  style=" padding: 12px; text-align: center; justify-content: center;  background-image: linear-gradient(to right, black, gray);">
+                  <h1 style="color: aliceblue; margin-bottom: 30px;">
+                    Select Your Platform
+                  </h1>
+                  <div class="col-lg-3 col-md-6" style="margin-bottom: 50px;">
+                    <div class="card text-center" style="width: 18rem; background-image: linear-gradient(pink,skyblue);">
+                      <div class="card-body">
+                        <h1 class="card-title">PC</h1><hr>
+                        <h3>System requirements: <hr></h3>
+                        <p>OS: 64-bit Windows 10
+                            <br>
+                            Processor (AMD): FX 8150 @3.6GHz or Equivalent
+                            <br>
+                            Processor (Intel): Core i5-3550 @3.40GHz or Equivalent
+                            <br>
+                            Memory: 8 GB
+                            <br>
+                            Graphics card (AMD): Radeon R9 270x or Equivalent
+                            <br>
+                            Graphics card (NVIDIA): GeForce GTX 670 or Equivalent
+                            <br>
+                            Hard-drive space: 50 GB <hr></p>
+                            <h4><b>Price   :  580  $ </b><hr></h4>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6" style="margin-bottom: 50px;">
+                    <div class="card text-center" style="width: 18rem; background-image: linear-gradient(pink,skyblue);">
+                      <div class="card-body">
+                        <h1 class="card-title">PS4</h1><hr>
+                        <h3>Consol PS4 :<hr></h3>
+                        <p>
+                            FIFA 22 was recently introduced by Electronic Arts and, as expected, will include some graphical enhancements as well as changes to the gameplay system.
+                            <hr>
+                            License Number : 555
+                            <br>
+                            Game genre : Competitive, simulation
+                            <br>
+                            Disk type : Blu-Ray 
+                            <br>
+                            Number of disks : 1
+                            <br>
+                            Suitable for age group : 17 - 19 </p>
+                            <hr>
+                            <h4><b>Price   :  810  $ </b><hr></h4>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6" style="margin-bottom: 50px;">
+                    <div class="card text-center" style="width: 18rem; background-image: linear-gradient(pink,skyblue);">
+                      <div class="card-body">
+                        <h1 class="card-title">X-Box</h1><hr>
+                        <h3>SERIES X|S <hr></h3>
+                        <p>
+                            Join EA Play today and experience unrivaled authenticity with the most true-to-life experience of The World’s Game featuring football’s biggest stars and teams. Start your season with a 10-hour trial.
+                            Claim member rewards all season long:
+                            Ultimate Team Season XP Boosts
+                            VOLTA FOOTBALL season apparel
+                            Monthly FUT Stadium customization items Suitable for age group : 17 - 19
+                            <hr>
+                        </p>
+                            <h4><b>Price   :  780  $ </b><hr></h4>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<!--price-->  </div>
+
+<!--contct--> 
+              <div class="container-fluid">
+                <div class="row" style="  background-image: linear-gradient(to right, pink, skyblue);">
+                  <div class="col-lg-4" style="margin: 25px;">
+                    <h1>
+                      Contact Us
+                    </h1><br>
+                    <h2>
+                      Address :
+                    </h2><br>
+                    <h6 style="color: black;">🏢 Electronic Arts Inc. 209 Redwood Shores Parkway Redwood City, CA 94065</h6>
+                    <h6 style="color: black;">📧EASports@mail.com</h6>
+                  </div>
+                  <div class="col-lg-7" style="padding: 70px;">
+                    <form  style="background-color: aliceblue; padding:10px;">
+                      <h5>
+                        Name :
+                      </h5>
+                      <input type="text"><hr>
+                      <h5>
+                        Email :
+                      </h5>
+                      <input type="text"><hr>
+                      <h5>
+                        Message :
+                      </h5>
+                      <input type="text"><hr>
+                      <input type="checkbox" style="margin-bottom: 20px;">  I like it
+                      <input id="send" type="button" value="SEND" style="position: absolute; right: 12%;">
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <img src="Data/poster.png" alt="poster">
+              </div>
+              <footer>
+                <div id="followus">
+                  <h1 style="margin: 0px 0px 29px 0px;">Follow Us</h1>
+                  <div class="social-media" >
+                    <button><span  class="fa fa-facebook fa-2x"></span></button>
+                    <button><span class="fa fa-youtube fa-2x"></span></button>
+                    <button><span class="fa fa-instagram fa-2x"></span></button>
+                    <button><span class="fa fa-telegram fa-2x"></span></button>
+                    <button><span class="fa fa-twitter fa-2x"></span></button>
+                  </div>
+                  <h3 >© 2022 Electronic Arts Inc.</h3>
+                  </div>
+                </footer>
+        <!-- main --></div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </body>
+</html>
