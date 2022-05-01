@@ -1,0 +1,65 @@
+#search
+{
+    width: 550px;
+    background-color: lightgray;
+}
+.carousel-indicators button
+{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 100%;
+}
+.container .row .col-2 a img
+{
+    width: 60px !important;
+}
+.container .row .col-2 a
+{
+    font-size: smaller;
+}
+.offer-percentage{
+    font-size: smaller;
+
+    border-radius: 15px;
+    background-color: #fb3449;
+    color: #fff;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-price{
+    color: #a1a1a1;
+    text-decoration: line-through;
+    padding-left: 1rem;
+}
+.row .col .card:hover
+{
+    cursor: pointer;
+}
+
+#brands
+{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.social-media button
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  18px 18px 36px #acacac,
+             -18px -18px 36px #ffffff;
+             border-style: none;
+}
