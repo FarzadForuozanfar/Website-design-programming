@@ -1,4 +1,25 @@
 body
 {
-    background-color: whitesmoke;
+    background-color: darkslategrey;
+}
+.navbar a
+{
+    font-size: x-large !important;
+    color: #f5f5f5 !important;
+    transition: all 0.8s;
+}
+.navbar a:hover
+{
+    border-radius: 150px !important;
+    font-size: 23px !important;
+    color: gold !important;
+    background-color: darkslategrey !important;
+}
+.dropdown-menu
+{
+    background-color: black !important;
+}
+#year
+{
+    width: auto !important;
 }
