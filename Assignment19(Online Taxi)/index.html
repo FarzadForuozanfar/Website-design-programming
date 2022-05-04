@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imges/logo.jpg">
+    <meta name="description" content="Online Taxi">
+    <meta name="keywords" content="html, css, js, bootstrap, Taxi, online taxi, snapp">
+    <meta name="author" content="farzad foroozanfar">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
+    <title>Online Taxi</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="mt-2">
+            <h1 class="p-1 text-success text-center">Mashhad Online Taxi</h1>
+            <p class="p-3 mt-4 bg-warning text-start rounded-3">
+                Please specify the origin !!!
+            </p>
+        </header>
+
+
+        <div id="googleMap" style="width:100%;height:400px;"></div>
+
+        <script>
+            function myMap() {
+                var mapProp = {
+                    center: new google.maps.LatLng(35, 52),
+                    zoom: 5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+                var myCenter = new google.maps.LatLng(35, 52);
+                var marker = new google.maps.Marker({ position: myCenter });
+
+                marker.setMap(map);
+            }
+        </script>
+        <div class="container">
+            <div class="row ">
+                <div class="col mt-3 d-flex justify-content-center">
+                    <button type="button" class="btn btn-success">Confirmation of origin</button>
+                </div>
+            </div>
+
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+
+    </div>
+</body>
+
+</html>
