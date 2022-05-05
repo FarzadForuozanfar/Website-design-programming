@@ -11,7 +11,7 @@
     <meta name="author" content="farzad foroozanfar">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!--<link rel="stylesheet" type="text/css" href="css/styles.css">-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Online Taxi</title>
 </head>
 
@@ -19,8 +19,8 @@
     <div class="container">
 
         <header class="mt-2">
-            <h1 class="p-1 text-success text-center">Mashhad Online Taxi</h1>
-            <p style="background-color: yellow !important;" class="p-3 mt-4  text-start rounded-3">
+            <h1 class="p-1 text-success text-center"><b>Mashhad Online Taxi</b></h1>
+            <p id="calculate-cost" style="background-color: yellow !important;" class="p-3 mt-4  text-start rounded-3">
                 Please specify the origin !!!
             </p>
         </header>
@@ -28,50 +28,17 @@
 
         <div id="googleMap" style="width:100%;height:400px;"></div>
 
-        <script>
-            var lat = 36.3141306;
-            var lng = 59.549162;
-            var map;
-
-            function myMap() {
-                var mapProp = {
-                    center: new google.maps.LatLng(lat, lng),
-                    zoom: 16,
-                };
-                map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-            }
-            if (navigator.geolocation) {
-                
-                navigator.geolocation.getCurrentPosition(function (position) {
-                    lat = position.coords.latitude;
-                    lng = position.coords.longitude;
-                    var myCenter = new google.maps.LatLng(lat, lng);
-
-                    map.setCenter(myCenter);
-
-                    var marker = new google.maps.Marker({
-                        position: myCenter,
-                        icon: "imges/des_marker.png",
-                        draggable: true,
-                        animation: google.maps.Animation.DROP,
-                    }
-                    );
-                    marker.setMap(map);
-                });
-                alert(marker);
-            } else {
-                alert("Geolocation is not supported by this browser.");
-            }
-        </script>
         <div class="container">
             <div class="row ">
                 <div class="col mt-3 d-flex justify-content-center">
-                    <button style="background-color: yellow !important;" type="button" class="btn ">Confirmation of
-                        origin</button>
+                    <input type="button" value="Confirmation of origin" class="btn" id="btn_org_des">
+                    <!--<button id="btn_org_des" type="button" class="btn" >Confirmation of
+                        origin</button>-->
                 </div>
             </div>
 
         </div>
+        <script src="scripts.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
             integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

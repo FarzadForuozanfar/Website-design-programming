@@ -1,0 +1,12 @@
+#btn_org_des
+{
+    background-color: yellow;
+    font-size: larger;
+    transition: all 0.25s;
+}
+#btn_org_des:hover
+{
+    text-decoration: wavy;
+    transform: scale(1.02,1.02);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.5);
+}
