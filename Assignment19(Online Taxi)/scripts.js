@@ -64,13 +64,14 @@ if (navigator.geolocation) {
                 );
                 detention_marker.setMap(map);
 
-                myCenter = origin_marker.getCurrentPosition();
+                /*myCenter = origin_marker.getCurrentPosition();
                 origin_marker = new google.maps.Marker({
                     position: myCenter,
                     icon: "imges/des_marker.png",
                     draggable: false,
                 }
-                );
+                );*/
+                origin_marker.setDraggable(false);
                 origin_marker.setMap(map);
 
             }
@@ -79,12 +80,13 @@ if (navigator.geolocation) {
 
                 btn_od.value = "Destination confirmed";
                 desCenter = detention_marker.getPosition();
-                detention_marker = new google.maps.Marker({
+                /*detention_marker = new google.maps.Marker({
                     position: desCenter,
                     icon: "imges/origin_marker.png",
                     draggable: false,
                 }
-                );
+                );*/
+                detention_marker.setDraggable(false);
                 detention_marker.setMap(map);
                 btn_od.style.color = "white";
                 btn_od.style.backgroundColor = "green";
