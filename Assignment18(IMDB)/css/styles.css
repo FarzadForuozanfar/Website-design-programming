@@ -6,7 +6,7 @@ body
 {
     font-size: x-large !important;
     color: #f5f5f5 !important;
-    transition: all 0.8s;
+    transition: background-color 1.9s;
 }
 .navbar a:hover
 {
@@ -22,4 +22,11 @@ body
 #year
 {
     width: auto !important;
+}
+
+#blackwhite:hover
+{
+    filter: grayscale(0) !important;
+    filter: none !important;
+    transition: all 1.2s !important;
 }
