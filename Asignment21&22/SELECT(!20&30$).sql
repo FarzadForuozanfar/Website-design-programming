@@ -1,1 +1,1 @@
-SELECT * FROM products WHERE price > 30 AND price < 20;
+SELECT * FROM products WHERE price > 30 OR price < 20;
