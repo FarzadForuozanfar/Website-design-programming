@@ -1,0 +1,116 @@
+.heart {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  transform: rotate(45deg);
+  animation: animateHeart 1.9s infinite;
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  width: 250px;
+  height: 250px;
+  animation: animate 1.9s infinite;
+
+  position: absolute;
+  border-radius: 50%;
+}
+
+.heart::before {
+  left: -120px;
+}
+
+.heart::after {
+  top: -120px;
+}
+
+.text {
+  left: -150px;
+  font-weight: bold;
+  color: red;
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+  animation: animatetext 1.9s infinite;
+  transform: rotate(-45deg);
+
+}
+
+@keyframes animateHeart {
+  0% {
+    transform: rotate(45deg) scale(0.8);
+    background-color: salmon;
+  }
+
+  5% {
+    transform: rotate(45deg) scale(0.9);
+  }
+
+  10% {
+    transform: rotate(45deg) scale(0.8);
+  }
+
+  15% {
+    transform: rotate(45deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(45deg) scale(0.8);
+  }
+
+  100% {
+    transform: rotate(45deg) scale(0.8);
+    background-color: red;
+
+
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-color: salmon;
+  }
+
+  100% {
+    background-color: red;
+
+  }
+}
+
+@keyframes animatetext {
+  0% {
+    transform: scale(0.8);
+  }
+
+  5% {
+    transform: scale(0.9);
+  }
+
+  10% {
+    transform: scale(0.8);
+  }
+
+  15% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+body {
+  padding: 50% 0 0 0;
+  background-image: linear-gradient(to right top, #f3ff88, #f7ea74, #f9d564, #f9c058, #f8ab50, #f79d4b, #f68e48, #f47f47, #f57346, #f56646, #f55847, #f54949);
+}
+  .center {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+
+}
