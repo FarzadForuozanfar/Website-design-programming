@@ -1,3 +1,9 @@
+body
+{
+  background-color:violet;
+  animation: animatebody 2.9s infinite;
+
+}
 .heart {
   width: 250px;
   height: 250px;
@@ -36,7 +42,23 @@
   transform: rotate(-45deg);
 
 }
+@keyframes animatebody
+{
+  0%
+  {
+    background-color: thistle;
+  }
+  50%
+  {
+    background-color: violet;
 
+  }
+  100%
+  {
+    background-color:hotpink;
+
+  }
+}
 @keyframes animateHeart {
   0% {
     transform: rotate(45deg) scale(0.8);
@@ -104,13 +126,10 @@
   }
 }
 
-body {
-  padding: 50% 0 0 0;
-  background-image: linear-gradient(to right top, #f3ff88, #f7ea74, #f9d564, #f9c058, #f8ab50, #f79d4b, #f68e48, #f47f47, #f57346, #f56646, #f55847, #f54949);
-}
-  .center {
+
+.center {
   position: absolute;
-  top: 35%;
-  left: 45%;
+  top: 25%;
+  left: 35%;
 
 }
