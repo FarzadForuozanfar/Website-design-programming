@@ -1,0 +1,16 @@
+#table 
+{
+    position: relative !important;
+    left: 40% !important;
+    border-style: groove !important;
+    border-width: 15px !important;
+    border-color: brown !important;
+}
+table #td
+{
+    background-color:lightgreen; 
+    color:red; 
+    font-weight: bolder;
+    font-size: x-large;
+    font-family:'Times New Roman';
+}
