@@ -1,5 +1,10 @@
 <?php
-    $response = file_get_contents("flight.json");
+   $url = "https://respina24.ir/flight/Locations1";
+    $client = curl_init($url);
+    curl_setopt($client, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+    curl_setopt($client, CURLOPT_URL, $url);
+    curl_setopt($client,CURLOPT_RETURNTRANSFER,true);
+    $response = curl_exec($client);
     $result = json_decode($response);
     $locations = $result->Locations;
 ?>
